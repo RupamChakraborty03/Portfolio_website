@@ -1,0 +1,53 @@
+    <div class="box-container">
+
+        <div class="box">
+            <h3> >> 2+ </h3>
+            <p>years of experience</p>
+        </div>
+        <div class="box">
+            <h3> >> 250+ </h3>
+            <p>happy clients</p>
+        </div>
+        <div class="box">
+            <h3> >> 150+ </h3>
+            <p>projects completed</p>
+        </div>
+        <div class="box">
+            <h3> >> 12+ </h3>
+            <p>awards won</p>
+        </div>
+
+    </div>
+----------------------------------------------------
+.about .row-2 .box-container{
+    flex:1 1 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.about .row-2 .box-container .box{
+    flex:1 1 15rem;
+    background:#fff;
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.about .row-2 .box-container .box h3{
+    color:var(--main-color);
+    font-size: 3rem;
+}
+
+.about .row-2 .box-container .box p{
+    color:#666;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+
+============================================================
+
+
+
+
+
